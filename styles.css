@@ -1,0 +1,86 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.main-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.main-title h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.main-title i {
+  color: #555;
+  font-size: 1.5rem;
+}
+
+
+
+
+.container {
+display: flex;
+width: 90%;
+max-width: 800px;
+background: white;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+overflow: hidden;
+}
+
+.clock {
+flex: 1;
+padding: 30px 20px;
+text-align: center;
+border-right: 1px solid #ddd;
+}
+
+.clock:last-child {
+border-right: none;
+}
+
+.clock h2 {
+margin-bottom: 20px;
+font-size: 1.5em;
+}
+
+.clock p {
+font-size: 2em;
+margin: 10px 0 20px;
+}
+
+select {
+padding: 10px;
+font-size: 1em;
+width: 80%;
+max-width: 300px;
+}
+
+
+
+.explanation {
+  max-width: 800px;
+  margin-top: 30px;
+  padding: 0 20px;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+.explanation h3 {
+  margin-bottom: 10px;
+}
