@@ -25,11 +25,11 @@ const cityTimezones = [
 
 
 
-// 📥 Sélectionne le menu déroulant dans le DOM
+//Sélectionne le menu déroulant dans le DOM
 const citySelect = document.getElementById('city-select');
 
 
-// 🏙️ Remplit dynamiquement le menu déroulant avec toutes les villes de cityTimezones
+//Remplit dynamiquement le menu déroulant avec toutes les villes de cityTimezones
 cityTimezones.forEach(city => {
   const option = document.createElement('option'); // Crée un élément <option>
   option.value = city.value;                       // Valeur = nom de fuseau horaire IANA
